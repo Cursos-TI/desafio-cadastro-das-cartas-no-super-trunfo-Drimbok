@@ -15,11 +15,11 @@ int main(void) {
 //Registro dos dados da primeira carta.
   
   printf("Digite a letra do primeiro estado (utilizando apenas uma letra e que seja entre A e H): \n");
-  scanf(" %s",estado1);
+  scanf(" %s",&estado1);
   printf("Digite o código do primeiro estado (utilizando a letra e usando um número entre 01 até 04): \n");
-  scanf(" %s",codigo1);
+  scanf(" %s",&codigo1);
   printf("Digite a cidade do primeiro estado: \n");
-  scanf(" %s",cidade1);
+  scanf(" %s",&cidade1);
   printf("Digite a população do primeiro estado: \n");
   scanf(" %d",&populacao1);
   printf("Digite a área do primeiro estado: \n");
@@ -33,11 +33,11 @@ int main(void) {
 //Registro dos dados da segunda carta.
 
   printf("Digite a letra do segundo estado (utilizando apenas uma letra e que seja entre A e H): \n");
-  scanf(" %s",estado2);
+  scanf(" %s",&estado2);
   printf("Digite o código do segundo estado (utilizando a letra e usando um número entre 01 até 04): \n");
-  scanf(" %s",codigo2);
+  scanf(" %s",&codigo2);
   printf("Digite a cidade do segundo estado: \n");
-  scanf(" %s",cidade2);
+  scanf(" %s",&cidade2);
   printf("Digite a população do segundo estado: \n");
   scanf(" %d",&populacao2);
   printf("Digite a área do segundo estado: \n");
