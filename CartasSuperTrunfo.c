@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(void) {
-  
+//houve um certo problema com relação ao fgets, porém não consegui achar uma solução em nenhum lugar.   
 //as váriaveis estão bem claras e o número 1 representa a primeira carta e o 2 a segunda carta.
   char estado1[1], estado2[1];
   char codigo1[3],codigo2[3];
